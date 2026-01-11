@@ -52,6 +52,16 @@ These engineered features demonstrate applied machine learning and statistical r
 
 ---
 
+## Tech Stack
+- Python
+- Pandas, NumPy
+- Statsmodels (OLS regression)
+- Matplotlib and Plotly
+- Yahoo Finance API (via yfinance)
+- Jupyter Notebook
+
+---
+
 ## Outputs
 The system produces:
 - Factor exposure coefficients (betas)
@@ -63,29 +73,3 @@ The system produces:
   - Rolling beta time-series plots
 
 ---
-
-## Tech Stack
-- Python
-- Pandas, NumPy
-- Statsmodels (OLS regression)
-- Matplotlib and Plotly
-- Yahoo Finance API (via yfinance)
-- Jupyter Notebook
-
----
-
-## Repository Structure
-Factor-Exposure-Analyzer/
-│
-├── notebooks/
-│   └── factor_exposure_analyzer.ipynb
-│
-├── images/
-│   └── factor_exposures.png
-│   └── radar_chart.png
-│   └── rolling_factor_betas.png
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
